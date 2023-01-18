@@ -1,0 +1,88 @@
+@font-face {
+    font-family: norse-bold;
+    src: url(../fonts/Norse-Bold.otf);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.mainBox
+{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1
+{
+    font-size: 500%;
+    align-self: center;
+    margin: 0;
+    color: whitesmoke;
+}
+
+.logo
+{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    opacity: 0.8;
+    margin-top: 30vh;
+    padding: 10px 0px;
+}
+
+#odinLogo
+{
+    height: 10vh;
+    width: auto;
+}
+
+.leftBox
+{
+    background-image: url(../images/marek-piwnicki-H6Wov65zqsE-unsplash.jpg);
+    background-size: cover;
+    height: 100vh;
+    flex: 1;
+}
+
+.rightBox
+{
+    display: flex;
+    flex-direction: column;
+    flex: 1.5;
+}
+
+.upper
+{
+    flex: 1.5;
+    background-color: #c7e7f1;
+}
+
+.middle
+{
+    flex: 1;
+}
+
+.lower
+{
+    flex: 1.5;
+    background-color: #c7e7f1;
+}
+
+h1
+{
+    font-family: norse-bold, sans-serif;
+}
+
+.sign_up_form
+{
+    display:flex;
+}
+
+.sign_up_form div div
+{
+    display: flex;
+    flex-direction: column;
+}
