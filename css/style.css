@@ -6,6 +6,7 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 
 .mainBox
@@ -21,6 +22,14 @@ h1
     align-self: center;
     margin: 0;
     color: whitesmoke;
+    font-family: norse-bold, sans-serif;
+}
+
+h2
+{
+    font-family: sans-serif;
+    margin-left: 60px;
+    margin-bottom: 0px;
 }
 
 .logo
@@ -45,6 +54,8 @@ h1
     background-size: cover;
     height: 100vh;
     flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 .rightBox
@@ -63,6 +74,8 @@ h1
 .middle
 {
     flex: 1;
+    box-shadow: 3px 0px 8px #888888;
+    z-index: 1;
 }
 
 .lower
@@ -71,33 +84,86 @@ h1
     background-color: #c7e7f1;
 }
 
-h1
-{
-    font-family: norse-bold, sans-serif;
-}
-
 .sign_up_form
 {
     display:flex;
+}
+
+.sign_up_form div
+{
+    margin-left: 30px;
 }
 
 .sign_up_form div div
 {
     display: flex;
     flex-direction: column;
+    margin-top: 2vh;
 }
+
+
 
 .credit
 {
     color: white;
     justify-self: center;
     margin-top: 60vh;
-    margin-left: 13vw;
     background-color: grey;
-    margin-right: 14vw;
+    width: 220px;
+    font-size: 13px;
+    align-self: center;
 }
 
 .credit a
 {
     color:white;
+}
+
+label{
+    color: rgb(102, 102, 102);
+    font-weight: bold;
+    font-size: smaller;
+}
+
+input
+{
+    border-radius: 3px;
+    border: 1px solid;
+    width: 12vw;
+    height: 2.5vh;
+    padding-left: 5px;
+}
+
+.upper p
+{
+    margin-left: 60px;
+    margin-top: 17vh;
+    font-size: 22px;
+    font-weight: 600;
+    width: 40vw;
+}
+
+.lower div
+{
+    margin-left: 60px;
+}
+
+button
+{
+    margin-top: 30px;
+    height: 40px;
+    width: 210px;
+    font-weight: 700;
+    font-size: 15px;
+    background-color: rgb(105, 104, 90);
+    color: white;
+    border-radius: 8px;
+    border-style: solid;
+    box-shadow: 2px 2px #888888;
+}
+
+.lower p a
+{
+    text-decoration: none;
+    color: rgb(105, 104, 90);
 }
